@@ -1,0 +1,27 @@
+{
+  "name": "automation-exercise-playwright",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Playwright para o site Automation Exercise",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "codegen": "npx playwright codegen",
+    "install:browsers": "npx playwright install"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "node": "^22.18.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
+}
