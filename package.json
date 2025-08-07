@@ -14,8 +14,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.54.2",
-    "faker": "^6.6.6"
+    "@playwright/test": "^1.54.2"
   },
   "dependencies": {
     "node": "^22.18.0"
